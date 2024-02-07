@@ -49,7 +49,7 @@ batch_size = 64
 dataset = torch.utils.data.TensorDataset(X_tensor, y_tensor)
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size)
 
-num_epochs = 100
+num_epochs = 500
 for epoch in range(num_epochs):
     epoch_loss = 0.0
     correct = 0
